@@ -1,0 +1,86 @@
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-image: url('img/nature.jpg');
+    background-size: cover;
+    background-position: center center;
+    font-family: "Henny Penny";
+}  
+
+.btn{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px 25px;
+    margin-top: 20px auto;
+    text-align: center;
+    font-size: 30px;
+    /* font-family: "Henny Penny"; */
+    border-radius: 10px;
+    background-color: #ec7163;
+    box-shadow: 5px 6px #cd9e99;
+    transition: all 1.5ms ease-in-out;
+}
+
+.btn:hover{
+    opacity: 0.9;
+}
+
+.btn:active{
+    box-shadow: none;
+}
+
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    color: white;
+    background-color: #333;
+    display: none;
+    box-shadow: 4px 5px 5px #aaa;
+}
+
+.modal-title{
+    text-align: center;
+    border-bottom: 1px solid #aaa;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+
+.modal-body{
+    text-align: justify;
+    padding: 15px;
+    font-size: 18px;
+    margin: 30px 10px;
+}
+
+.close-button{
+    background-color: bisque;
+    padding: 5px 15px;
+    float: right;
+    margin: 20px 20px;
+    width: 30%;
+    font-family: "Henny Penny";
+    font-size: 30px;
+    box-shadow: 2px 3px 5px bisque;
+    border-radius: 10px;
+    transition: all 1.5ms ease-in-out;
+}
+
+.close-button:hover{
+    opacity: 0.9;
+}
+
+.close-button:active{
+    box-shadow: none;
+}
